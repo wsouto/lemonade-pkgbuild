@@ -1,0 +1,16 @@
+# AUR-style: ignore everything by default, then explicitly allow the files
+# that belong in the packaging repo. This keeps build artifacts out of the
+# history: src/, pkg/, *.pkg.tar.*, build logs and the git source mirror.
+*
+!.gitignore
+!PKGBUILD
+!.SRCINFO
+!*.install
+!*.patch
+!*.diff
+!LICENSE
+!LICENSES/
+!LICENSES/**
+!README.md
+!REUSE.toml
+!.nvchecker.toml

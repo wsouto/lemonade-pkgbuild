@@ -1,0 +1,4 @@
+[lemonade]
+source = "git"
+git = "https://github.com/lemonade-sdk/lemonade.git"
+prefix = "v"

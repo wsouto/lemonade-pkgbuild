@@ -1,0 +1,13 @@
+version = 1
+
+[[annotations]]
+path = [
+    "PKGBUILD",
+    "README.md",
+    ".SRCINFO",
+    ".gitignore",
+    ".nvchecker.toml",
+    "*.patch",
+]
+SPDX-FileCopyrightText = ["Arch Linux contributors", "2026 Walter Souto"]
+SPDX-License-Identifier = "0BSD"
